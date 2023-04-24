@@ -1,3 +1,3 @@
-function onClickFecha(){
-    alert(new Date());
+function onClickFoto(){
+    alert("Proximamente incluiremos bien esta funcionalidad");
 }
