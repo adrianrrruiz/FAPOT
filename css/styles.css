@@ -31,7 +31,7 @@ header {
 
 #logo img {
     border-radius: 100%;
-    border: 2px solid #11a10c;  /* Solid: Para que la linea sea continua*/
+    border: 2px solid #fcfcfc;  /* Solid: Para que la linea sea continua*/
 }
 
 
@@ -45,6 +45,7 @@ header {
     display: inline-block;
     width: 100%;
 }
+
 
 #hero .informacion-contenedor {
     position: absolute; /* Despegarse del formato del html, busca donde esta el relative y desde ahi lo pega */
@@ -63,7 +64,7 @@ header {
 
 #hero .informacion-contenedor #Foto img {
     border-radius: 100%;
-    border: 2px solid #11a10c;
+    border: 2px solid #ffffff;
 }
 
 #hero .informacion-contenedor .informacion {
