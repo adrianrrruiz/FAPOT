@@ -46,6 +46,11 @@ header {
     width: 100%;
 }
 
+#hero #Fondo #bg-video{
+    max-width: 100%;
+    width: 100%;
+}
+
 
 #hero .informacion-contenedor {
     position: absolute; /* Despegarse del formato del html, busca donde esta el relative y desde ahi lo pega */
