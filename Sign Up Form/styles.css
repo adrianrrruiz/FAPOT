@@ -5,12 +5,20 @@
 body {
     color: rgb(54, 55, 56);
     font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .container {
     background-color: rgb(193, 255, 252);
     padding: 1.25rem;
     margin: 1.25rem;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 1rem;
 }
 
 .container form h1 {
@@ -28,10 +36,19 @@ body {
 }
 
 .container form input{
-    border-width: 2px;
-    border-style: solid;
-    border-color:rgba(115, 90, 226, 0.479);
+    border: 2px solid rgba(115, 90, 226, 0.479);
     border-radius: 0.6rem;
     outline: none;
     padding: 0.625rem 1.25rem;
+    width: 100%;
+}
+
+.container form input:focus{
+    border-color:rgb(115, 90, 226);
+}
+
+@media(min-width: 700px) {
+    .container {
+        margin: 1.25rem auto;
+    }
 }
