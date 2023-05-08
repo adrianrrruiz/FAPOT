@@ -40,6 +40,17 @@ header .input-file {
     font-weight: bold;
 }
 
+.create-account {
+    background-color: #f70000;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+.create-account:hover {
+    background-color: #f7000068;
+}
+
 /* Acá estan los estilos del hero */
 
 #hero {
