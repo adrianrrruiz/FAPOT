@@ -3,7 +3,8 @@
 }
 
 body {
-    color: rgb(54, 55, 56);
+    color: #e8e8e7;
+    background-color: #e8e8e7;
     font-size: 16px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
@@ -13,17 +14,26 @@ body {
 }
 
 .container {
-    background-color: rgb(193, 255, 252);
+    background-color: #981914;
     padding: 1.25rem;
     margin: 1.25rem;
     width: 90%;
     max-width: 700px;
     border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
 .container form h1 {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.container form .form-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    /* gap is the space into the grids */
+    margin-top: 1.25rem;
 }
 
 .container form label {
@@ -36,7 +46,7 @@ body {
 }
 
 .container form input{
-    border: 2px solid rgba(115, 90, 226, 0.479);
+    border: 2px solid #e8e8e7;
     border-radius: 0.6rem;
     outline: none;
     padding: 0.625rem 1.25rem;
@@ -44,11 +54,68 @@ body {
 }
 
 .container form input:focus{
-    border-color:rgb(115, 90, 226);
+    border-color:#333333;
+}
+
+.container form .btn {
+    color: #f6f5f5;
+    padding: 0.625rem 3rem;
+    font-size: 1rem;
+    background-color: #333333;
+    margin-top: 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 0.625rem;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.container form .btn:hover{
+    cursor: pointer;
+    background-color: #b91817;
+}
+
+.checkboxes {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 1rem 0 0.5rem 0;
+}
+.checkbox {
+    display: none;
+}
+
+.label {
+    position: relative;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 1.25rem 0 0;
+    width: 50px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.ball {
+    background-color: #333333;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.15s linear;
+}
+
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
 }
 
 @media(min-width: 700px) {
     .container {
         margin: 1.25rem auto;
+        padding: 2rem;
+    }
+
+    .container form .form-inner{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
