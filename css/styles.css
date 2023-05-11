@@ -10,11 +10,11 @@ body {
 
 /* Aca tengo estilos generales */ 
 
-.image-container {
+.contenedor-imagen {
     display: flex;
 }
 
-.image-container img { /* Contenedor padre */
+.contenedor-imagen img { /* Contenedor padre */
     width: 100%; 
 }
 
@@ -34,13 +34,13 @@ header {
     border: 2px solid #fcfcfc;  /* Solid: Para que la linea sea continua*/
 }
 
-header .input-file {
+header .subir-archivo {
     text-align: end;
     color: #ffffff;
     font-weight: bold;
 }
 
-.create-account {
+.crear-cuenta {
     background-color: #b91817;
     color: rgb(255, 255, 255);
     padding: 5px 25px;
@@ -49,7 +49,7 @@ header .input-file {
     font-weight: bold;
 }
 
-.create-account:hover {
+.crear-cuenta:hover {
     background-color: #b917178b;
     font-weight: lighter;
 }
@@ -110,18 +110,18 @@ main {
 }
 
 
-main .social-icons {
+main .iconos-redes-sociales {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     list-style: none;
 }
 
-main .social-icons li {
+main .iconos-redes-sociales li {
     margin-left: 8px;
 }
 
-main .social-icons .social-icon {
+main .iconos-redes-sociales .icono-red-social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,22 +131,22 @@ main .social-icons .social-icon {
     height: 100%;
 }
 
-main .social-icons #LinkedIn {
+main .iconos-redes-sociales #LinkedIn {
     background: #0077b0;
 }
 
-main .social-icons #GitHub {
+main .iconos-redes-sociales #GitHub {
     background: #23272d;
 }
 
-main .social-icons #Twitter {
+main .iconos-redes-sociales #Twitter {
     background: #921df2;
 }
 
-main .social-icons #YouTube {
+main .iconos-redes-sociales #YouTube {
     background: #f70000;
 }
 
-main .social-icons #Platzi {
+main .iconos-redes-sociales #Platzi {
     background: #121f3d;
 }

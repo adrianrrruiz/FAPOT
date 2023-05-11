@@ -3,65 +3,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Sign Up Form</title>
+    <title>Crear Cuenta</title>
 </head>
 <body>
     <header>
-        <div class="image-container" id="logo">
+        <div class="contenedor-imagen" id="logo">
             <a href="../index.html">
                 <img src="../Fotos/FAPOT (1).png" alt="Logo"/>
             </a>
         </div>
-        <div class="input-file" id="upload-video">
-            <label for="image_uploads">Subir Experiencia ✨</label>
+        <div class="subir-archivo" id="subir-video">
+            <label for="cargar-imagenes">Subir Experiencia ✨</label>
                 <input
                     type="file"
-                    id="image_uploads"
-                    name="image_uploads"
+                    id="cargar-imagenes"
+                    name="cargar-imagenes"
                     accept=".jpg, .jpeg, .png"
                 />
         </div>
-        <a class="create-account" href="index.html">Create Account</a>
+        <a class="crear-cuenta" href="index.html">Crear Cuenta</a>
     </header>
 
-    <div class="container">
+    <div class="contenedor">
         <form action="https://formsubmit.co/adrianruiz0208@gmail.com" method="POST">
-            <h1>Create an account</h1>
+            <h1>Crear Cuenta</h1>
 
-            <div class="form-inner">
+            <div class="formulario-interno">
                 <article>
-                    <label for="firstName">First name</label>
-                    <input type="text" name="firstName" id="firstName" required> 
-                    <!-- "name" is for link with the label and "required" doesn´t allow you to submit the form without filling this input -->
+                    <label for="nombres">Nombres</label>
+                    <input type="text" name="nombres" id="nombres" required> 
+                    <!-- "name" es para conectar el input con el label y "required" es para que no me deje enviar el formulario sin llenar ese campo -->
                 </article>
             
                 <article>
-                    <label for="lastName">Last name</label>
-                    <input type="text" name="lastName" id="lastName" required>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" required>
                 </article>
             </div>
 
-            <div class="form-inner">
+            <div class="formulario-interno">
                 <article>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" required>
                 </article>
             
                 <article>
-                    <label for="dob">Date of birth</label>
-                    <input type="date" name="dob" id="dob" required>
+                    <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" required>
                 </article>
             </div>
 
-            <div class="form-inner">
+            <div class="formulario-interno">
                 <article>
-                    <label for="password-one">Password</label>
-                    <input type="password" name="password-one" id="password-one" required>
+                    <label for="contraseña-uno">Contraseña</label>
+                    <input type="password" name="contraseña-uno" id="contraseña-uno" required>
                 </article>
             
                 <article>
-                    <label for="password-two">Confirm Password</label>
-                    <input type="password" name="password-two" id="password-two" required>
+                    <label for="contraseña-dos">Confirme Contraseña</label>
+                    <input type="password" name="contraseña-dos" id="contraseña-dos" required>
                 </article>
             </div>
 
@@ -73,7 +73,7 @@
                     </label>
                 </article>
                 
-                <small>I have read and agree to the terms of service outlines in the Privacy Policy</small>
+                <small>He leído y acepto los términos y condiciones de uso</small>
             </div>
 
             <div class="checkboxes">
@@ -84,10 +84,10 @@
                     </label>
                 </article>
                 
-                <small>Recieve emails about new updates and features. No spam included</small>
+                <small>Acepto recibir correos electrónicos sobre nuevas actualizaciones y características. No incluye spam</small>
             </div>
 
-            <button class="btn" type="submit">Create Account</button>
+            <button class="boton-crear-cuenta-final" type="submit">Crear Cuenta</button>
         </form>
     </div>
 </body>
