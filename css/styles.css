@@ -93,13 +93,16 @@ header .subir-archivo {
 
 #hero .informacion-contenedor .informacion {
     margin-left: 20px; 
+    padding: 10px;
+    border-radius: 0.625rem;
     font-weight: bold;
     width: calc(100% - 200px);
+    background-color: #ffffff4d;
 }
 
 #hero .informacion-contenedor .informacion span {
     display: inline-block; /* Se mantienen las propiedades de linea pero tambien de bloque */
-    color: #097405;
+    color: #000000;
     margin-bottom: 70px; /* Para utilizar un margen se debe estar trabajando minimo en un bloque */
 }
 
