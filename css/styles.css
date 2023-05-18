@@ -70,6 +70,10 @@ header .subir-archivo {
     width: 100%;
 }
 
+#hero h1{
+    font-weight: normal;
+}
+
 
 #hero .informacion-contenedor {
     position: absolute; /* Despegarse del formato del html, busca donde esta el relative y desde ahi lo pega */
@@ -104,6 +108,16 @@ header .subir-archivo {
     display: inline-block; /* Se mantienen las propiedades de linea pero tambien de bloque */
     color: #000000;
     margin-bottom: 70px; /* Para utilizar un margen se debe estar trabajando minimo en un bloque */
+}
+
+#hero .abrir-fapot {
+    background-color: #b91817;
+    color: rgb(255, 255, 255);
+    padding: 1px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 0.625rem;
+    font-weight: bold;
 }
 
 /* Acá estan los estilos del main*/
