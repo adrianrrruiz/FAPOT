@@ -123,22 +123,27 @@ header .subir-archivo {
 /* Acá estan los estilos del main*/
 
 main {
+    height: 1500px;
     padding: 100px;
 }
 
 
-main .iconos-redes-sociales {
+/* Acá estan los estilos del footer*/
+footer{
+    padding: 100px 20px;
+    background-color: #440202;
+}
+footer .iconos-redes-sociales {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
     list-style: none;
 }
 
-main .iconos-redes-sociales li {
+footer .iconos-redes-sociales li {
     margin-left: 8px;
 }
 
-main .iconos-redes-sociales .icono-red-social {
+footer .iconos-redes-sociales .icono-red-social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,22 +153,22 @@ main .iconos-redes-sociales .icono-red-social {
     height: 100%;
 }
 
-main .iconos-redes-sociales #LinkedIn {
+footer .iconos-redes-sociales #LinkedIn {
     background: #0077b0;
 }
 
-main .iconos-redes-sociales #GitHub {
+footer .iconos-redes-sociales #GitHub {
     background: #23272d;
 }
 
-main .iconos-redes-sociales #Twitter {
-    background: #921df2;
+footer .iconos-redes-sociales #Twitter {
+    background: #00acee;
 }
 
-main .iconos-redes-sociales #YouTube {
+footer .iconos-redes-sociales #YouTube {
     background: #f70000;
 }
 
-main .iconos-redes-sociales #Platzi {
+footer .iconos-redes-sociales #Platzi {
     background: #121f3d;
 }
