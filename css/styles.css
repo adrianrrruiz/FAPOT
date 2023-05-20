@@ -21,12 +21,14 @@ body {
 /* Acá tengo los estilos del header */
 
 header {
+    display: flex;
+    gap: 870px;
     background: #440202;
-    padding: 10px 50px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
+    padding: 10px 30px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
 }
 
 #logo {
-    width: 60px; /* Ancho del logo*/
+    width: 70px; /* Ancho del logo*/
 }
 
 #logo img {
@@ -34,11 +36,10 @@ header {
     border: 2px solid #fcfcfc;  /* Solid: Para que la linea sea continua*/
 }
 
-header .subir-archivo {
-    text-align: end;
-    color: #ffffff;
-    font-weight: bold;
+#botones-header {
+    display: flex;
 }
+
 
 .crear-cuenta {
     background-color: #b91817;
@@ -47,10 +48,22 @@ header .subir-archivo {
     text-decoration: none;
     border-radius: 0.625rem;
     font-weight: bold;
+    margin-right: 8px;
 }
 
 .crear-cuenta:hover {
     background-color: #b917178b;
+    font-weight: lighter;
+}
+
+.iniciar-sesion {
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.iniciar-sesion:hover {
     font-weight: lighter;
 }
 
