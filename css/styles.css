@@ -99,13 +99,15 @@ header {
     padding: 0 50px;
 }
 
-#hero .informacion-contenedor #Foto {
-    width: 200px;
+#hero .informacion-contenedor #video-inicio {
+    width: 300px;
 }
 
-#hero .informacion-contenedor #Foto img {
-    border-radius: 100%;
+#hero .informacion-contenedor #video-inicio #video-i {
     border: 2px solid #ffffff;
+    border-radius: 8%;
+    object-fit: cover;
+    width: 100%;
 }
 
 #hero .informacion-contenedor .informacion {
