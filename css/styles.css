@@ -184,3 +184,49 @@ footer .iconos-redes-sociales #YouTube {
 footer .iconos-redes-sociales #Platzi {
     background: #121f3d;
 }
+
+@media (max-width: 450px){
+
+    /* Estilos header */
+    header {
+        display: flex;
+        height: 55px;
+        gap: 200px;
+        background: #440202;
+        padding: 10px 10px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
+    }
+    
+    #logo {
+        width: 50px; /* Ancho del logo*/
+    }
+    
+    #logo img {
+        border-radius: 100%;
+        border: 1px solid #ff0202;  
+        width: 100%;
+    }
+    
+    #botones-header {
+        display: flex;
+    }
+    
+    
+    .crear-cuenta {
+        font-size: 14px;
+        background-color: #b91817;
+        color: rgb(255, 255, 255);
+        padding: 5px 25px;
+        text-decoration: none;
+        border-radius: 0.625rem;
+        font-weight: bold;
+        margin-right: 8px;
+    }
+    
+    .iniciar-sesion {
+        color: rgb(255, 255, 255);
+        padding: 0px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
