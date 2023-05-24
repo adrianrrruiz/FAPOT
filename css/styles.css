@@ -10,7 +10,7 @@ body {
 header {
     display: flex;
     height: 55px;
-    gap: 925px;
+    gap: 915px;
     background: #440202;
     padding: 10px 30px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
 }
