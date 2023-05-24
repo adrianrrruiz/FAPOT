@@ -229,4 +229,39 @@ footer .iconos-redes-sociales #Platzi {
         font-weight: bold;
         font-size: 14px;
     }
+
+/* Acá estan los estilos del hero */
+
+#hero .informacion-contenedor {
+    position: static;
+    transform: translateY(-120%);
+    display: flex;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#hero .informacion-contenedor #video-inicio {
+    width: 200px;
+}
+
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 20px; 
+    padding: 10px;
+    width: calc(100% - 200px);
+}
+
+.informacion h1{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.informacion p {
+    font-size: 12px;
+}
+
+#hero .abrir-fapot {
+    padding: 2px 25px;
+}
 }
