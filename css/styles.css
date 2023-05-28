@@ -8,9 +8,10 @@ body {
 /* Acá tengo los estilos del header */
 
 header {
+    position: relative;
     display: flex;
+    align-items: center;
     height: 55px;
-    gap: 915px;
     background: #440202;
     padding: 10px 30px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
 }
@@ -26,9 +27,11 @@ header {
 }
 
 #botones-header {
+    position: absolute;
+    right: 0;
     display: flex;
+    align-items: center;
 }
-
 
 .crear-cuenta {
     background-color: #b91817;
@@ -46,8 +49,9 @@ header {
 }
 
 .iniciar-sesion {
+    padding-right: 50px;
+    padding-left: 10px;
     color: rgb(255, 255, 255);
-    padding: 0px 10px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -185,50 +189,32 @@ footer .iconos-redes-sociales #Platzi {
     background: #121f3d;
 }
 
-@media (max-width: 450px){
+@media (max-width: 577px){
 
-    /* Estilos header */
-    header {
-        display: flex;
-        height: 55px;
-        gap: 200px;
-        background: #440202;
-        padding: 10px 10px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
-    }
-    
-    #logo {
-        width: 50px; /* Ancho del logo*/
-    }
-    
-    #logo img {
-        border-radius: 100%;
-        border: 1px solid #ff0202;  
-        width: 200%;
-    }
-    
-    #botones-header {
-        display: flex;
-    }
-    
-    
-    .crear-cuenta {
-        font-size: 14px;
-        background-color: #b91817;
-        color: rgb(255, 255, 255);
-        padding: 5px 25px;
-        text-decoration: none;
-        border-radius: 0.625rem;
-        font-weight: bold;
-        margin-right: 8px;
-    }
-    
-    .iniciar-sesion {
-        color: rgb(255, 255, 255);
-        padding: 0px 10px;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 14px;
-    }
+/* Estilos header */
+header {
+    height: 55px;
+    padding: 10px 10px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
+}
+
+#logo {
+    width: 24px; /* Ancho del logo*/
+}
+
+#logo img {
+    width: 200%;
+}
+
+.crear-cuenta {
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-right: 8px;
+}
+
+.iniciar-sesion {
+    padding-right: 12px;
+    font-size: 14px;
+}
 
 /* Acá estan los estilos del hero */
 
