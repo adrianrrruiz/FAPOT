@@ -13,13 +13,17 @@ body {
 
 
 /* Acá estan los estilos del formulario */
+.contenedor-grande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .contenedor {
+    margin: 20px;
     background-color: #981914;
-    padding: 1.25rem;
-    margin: 1.25rem;
-    width: 90%;
-    max-width: 700px;
+    padding: 20px;
+    width: 400px;
     border-radius: 1rem;
     box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
 }
