@@ -119,6 +119,7 @@ body {
     .contenedor {
         margin: 1.25rem auto;
         padding: 2rem;
+        width: 600px;
     }
 
     .contenedor form .formulario-interno{
