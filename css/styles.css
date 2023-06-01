@@ -12,7 +12,7 @@ header {
     display: flex;
     align-items: center;
     height: 55px;
-    background: #440202;
+    background: #3D0000;
     padding: 10px 30px;  /* El  primero va de arriba - abajo y el segundo de izquierda - derecha */
 }
 
@@ -22,7 +22,7 @@ header {
 
 #logo img {
     border-radius: 100%;
-    border: 1px solid #ff0202;  
+    border: 1px solid #FF0000;  
     width: 100%;
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 .crear-cuenta {
-    background-color: #b91817;
+    background-color: #950101;
     color: rgb(255, 255, 255);
     padding: 5px 25px;
     text-decoration: none;
@@ -44,7 +44,7 @@ header {
 }
 
 .crear-cuenta:hover {
-    background-color: #b917178b;
+    background-color: #FF0000;
     font-weight: lighter;
 }
 
@@ -117,22 +117,26 @@ header {
     font-size: 52px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: rgb(44, 32, 32);
+    color: #000000;
 }
 
 .informacion p {
     font-style: oblique;
     font-size: 20px;
-    color: #440202;
+    color: #950101;
 }
 
 #hero .abrir-fapot {
-    background-color: #b91817;
+    background-color: #950101;
     color: rgb(255, 255, 255);
     padding: 1px 25px;
     text-decoration: none;
     border-radius: 0.625rem;
     font-weight: bold;
+}
+
+#hero .abrir-fapot:hover {
+    background-color: #FF0000;
 }
 
 /* Acá estan los estilos del main*/
@@ -146,7 +150,7 @@ main {
 /* Acá estan los estilos del footer*/
 footer{
     padding: 100px 20px;
-    background-color: #440202;
+    background-color: #3D0000;
 }
 footer .iconos-redes-sociales {
     display: flex;
