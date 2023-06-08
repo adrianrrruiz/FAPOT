@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Acá tengo los estilos del header */
@@ -113,11 +116,15 @@ header {
 }
 
 .informacion h1{
-    font-family: 'Rancho', cursive;
     font-size: 52px;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #000000;
+}
+
+.informacion h1:hover::after{
+    content: "  Solo TUYO";
 }
 
 .informacion p {
