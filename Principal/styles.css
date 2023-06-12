@@ -1,2 +1,24 @@
 @import url(../css/normalize.css);
 @import url(../css/styles.css);
+
+nav {
+    position: fixed;
+    display: flex;
+    background-color: #950101;
+    flex-direction: column;
+    width: 12%;
+    height: 100vh;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #3D0000;
+    font-weight: bold;
+    border: 1px solid white;
+}
